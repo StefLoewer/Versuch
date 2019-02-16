@@ -63,7 +63,6 @@ layout = go.Layout(
             ))
 )
 
-'''
 annotations = []
 
 y_alle = np.rint(erfolgsfaktoren['Standardized Beta N=639'])
@@ -87,7 +86,6 @@ for yd, xd in zip(erfolgsfaktoren['Success factors'], erfolgsfaktoren['Standardi
 
 layout['annotations'] = annotations
 
-'''
 
 fig = go.Figure(data=data, layout=layout)
 
